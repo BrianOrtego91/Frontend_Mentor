@@ -4,8 +4,8 @@
 
 ### Completed Projects
 
-- Blog Preview Card - 9/22/2024
-- QR Code Component - 9/23/2024
+- [Blog Preview Card](https://brianortego91.github.io/Frontend_Mentor/Blog_Preview_Card/) - 9/22/2024
+- [QR Code Component](https://brianortego91.github.io/Frontend_Mentor/QR_Code_Component/) - 9/23/2024
 
 ### Projects Working
 
