@@ -1,47 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <link rel="stylesheet" href="/css/style.css">
-  <title>Frontend Mentor | Blog preview card</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../Blog_Preview_Card/css/style.css" />
+    <title>Frontend Mentor | Blog preview card</title>
+  </head>
+  <body>
+    <main id="content">
+      <div class="cardBox">
+        <img
+          class="cardImage"
+          src="../Blog_Preview_Card/assets/images/illustration-article.svg"
+          alt=""
+        />
 
-</head>
-<body>
+        <section class="cardContainer">
+          <button class="cardButton">Learning</button>
 
+          <p class="cardDate">Published 21 Dec 2023</p>
 
-<main id="content">
-  <div class="cardBox">
-      <img class="cardImage" src="/assets/images/illustration-article.svg" alt="">
+          <a class="cardHead" href=""><h2>HTML & CSS foundations</h2></a>
 
-    <section class="cardContainer">
-      <button class="cardButton">
-        Learning
-      </button>
-
-      <p class="cardDate">
-        Published 21 Dec 2023
-      </p>
-
-      <a class="cardHead" href=""><h2>HTML & CSS foundations</h2></a>
-
-      <p class="cardContent">
-        These languages are the backbone of every website, defining structure, content, and presentation.
-      </p>
-    </section>  
-    <section class="cardFooter">
-      <img class="cardFooterImage" src="/assets/images/image-avatar.webp" alt="">
-      <p class="cardName">
-        Greg Hooper
-      </p>
-    </section>    
-  </div>
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Brian Ortego</a>.
-  </div>
-</main>
-</body>
+          <p class="cardContent">
+            These languages are the backbone of every website, defining
+            structure, content, and presentation.
+          </p>
+        </section>
+        <section class="cardFooter">
+          <img
+            class="cardFooterImage"
+            src="../Blog_Preview_Card/assets/images/image-avatar.webp"
+            alt=""
+          />
+          <p class="cardName">Greg Hooper</p>
+        </section>
+      </div>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Brian Ortego</a>.
+      </div>
+    </main>
+  </body>
 </html>
