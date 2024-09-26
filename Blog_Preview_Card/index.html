@@ -3,57 +3,50 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
 
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../Blog_Preview_Card/css/style.css" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./assets/images/favicon-32x32.png"
     />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="../Blog_Preview_Card/css/style.css"
-    />
+
     <title>Frontend Mentor | Blog preview card</title>
   </head>
   <body>
-    <main id="content">
-      <div class="cardBox">
+    <div class="blog-preview-card">
+      <header class="card-image">
         <img
-          class="cardImage"
+          class="card-main-image"
           src="../Blog_Preview_Card/assets/images/illustration-article.svg"
-          alt=""
+          alt="Blog Image"
         />
-
-        <section class="cardContainer">
-          <button class="cardButton">Learning</button>
-
-          <p class="cardDate">Published 21 Dec 2023</p>
-
-          <a class="cardHead" href=""><h2>HTML & CSS foundations</h2></a>
-
-          <p class="cardContent">
-            These languages are the backbone of every website, defining
-            structure, content, and presentation.
-          </p>
-        </section>
-        <section class="cardFooter">
-          <img
-            class="cardFooterImage"
-            src="../Blog_Preview_Card/assets/images/image-avatar.webp"
-            alt=""
-          />
-          <p class="cardName">Greg Hooper</p>
-        </section>
-      </div>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Brian Ortego</a>.
-      </div>
-    </main>
+      </header>
+      <main class="card-text">
+        <h2 class="card-small-heading">Learning</h2>
+        <p class="card-published-date">Published 21 Dec 2023</p>
+        <h1 class="card-big-heading">HTML & CSS foundations</h1>
+        <p class="card-main-text"></p>
+      </main>
+      <footer class="card-footer">
+        <img
+          src="../Blog_Preview_Card/assets/images/image-avatar.webp"
+          alt="head shot"
+          class="card-footer-image"
+        />
+        <h3 class="card-name">Greg Hooper</h3>
+      </footer>
+    </div>
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
   </body>
 </html>
